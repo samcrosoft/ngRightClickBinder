@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app='AppNgTest'>
+<head>
+	<title>Angular NG Enter Test</title>
+	<script type="text/javascript" src='example/angular/angular.min.js'></script>
+	<script type="text/javascript" src='min/ngRightClick.min.js'></script>
+	<script type="text/javascript" src='example/app.js'></script>
+</head>
+<body>
+	<style type="text/css">
+	.sStlye{
+		height: 200px;
+		width: 130px;
+		background: #efefef;
+		border: 1px solid #999;
+		text-align: center;
+	}
+	</style>
+	<div ng-controller="TestCtrl">	
+		<div class="sStlye" on-right-click='shoutOut()'>
+			Right Click Me
+		</div>
+	</div>
+
+	<p>
+		<strong>@Todo:</strong> Add a proper angualrjs test
+	</p>
+
+
+</body>
+</html>
